@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutions</title>
+    <link rel="icon" type="image/png" href="./images/business.png">
+    <!-- Tailwind & Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- EB Garamond & Poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backgroundImage: {
+            'banner-bg': "url('./images/banner.png')",
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .font-eb{
+        font-family: 'EB Garamond', serif;
+    }
+    .font-poppins{
+        font-family: 'Poppins', sans-serif;
+    }
+
+</style>
+</head>
+<body>
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a class="font-poppins font-normal text-base text-[#707070]">Home</a></li>
+                    <li><a class="font-poppins font-normal text-base text-[#707070]">Services <div><img src="./images/frame.svg" alt=""></div></a></li>
+                    <li><a class="font-poppins font-normal text-base text-[#707070]">Cases <div><img src="./images/frame.svg" alt=""></div></a></li>
+                    <li><a class="font-poppins font-normal text-base text-[#707070]">Blog <div><img src="./images/frame.svg" alt=""></div></a></li>
+                    <li><a class="font-poppins font-normal text-base text-[#707070]">Contact Us <div><img src="./images/frame.svg" alt=""></div></a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl"><img src="./images/logo2.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-poppins font-normal text-base text-[#707070]">Home</a></li>
+                <li><a class="font-poppins font-normal text-base text-[#707070]">Services <div><img src="./images/frame.svg" alt=""></div></a></li>
+                <li><a class="font-poppins font-normal text-base text-[#707070]">Cases <div><img src="./images/frame.svg" alt=""></div></a></li>
+                <li><a class="font-poppins font-normal text-base text-[#707070]">Blog <div><img src="./images/frame.svg" alt=""></div></a></li>
+                <li><a class="font-poppins font-normal text-base text-[#707070]">Contact Us <div><img src="./images/frame.svg" alt=""></div></a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn font-poppins font-semibold text-base text-white bg-[#B68C5A]">Free Consultation</a>
+            </div>
+          </div>
+          <!-- banner section -->
+          <div class="hero min-h-[calc(100vh-72px)] bg-banner-bg">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
