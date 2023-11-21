@@ -65,7 +65,7 @@
                     src="./images/frame.svg" alt=""></div></a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost text-xl"><img src="./images/logo2.png" alt=""></a>
+        <a class="btn btn-ghost text-xl"><img class="w-7/12 md:w-full" src="./images/logo2.png" alt=""></a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
@@ -81,7 +81,7 @@
         </ul>
       </div>
       <div class="navbar-end">
-        <a class="btn rounded-lg font-poppins font-semibold text-base text-white bg-[#B68C5A]">Free Consultation</a>
+        <a class="btn rounded-lg w-20 md:w-52 font-poppins font-semibold text-xs md:text-base text-white bg-[#B68C5A]">Free Consultation</a>
       </div>
     </div>
     <!-- banner section -->
@@ -427,7 +427,7 @@
                 class="input mb-5 font-poppins rounded-lg w-full max-w-lg bg-base-200" />
 
               <input type="text" placeholder="Your Message"
-                class="input mb-5 h-32 font-poppins rounded-lg w-full max-w-lg bg-base-200" />
+                class="input mb-5 h-40 font-poppins rounded-lg w-full max-w-lg bg-base-200" />
               <div class="form-control mt-6">
                 <button
                   class="btn w-full max-w-lg border-none rounded-lg font-poppins font-semibold text-base text-white bg-[#B68C5A]">Send
@@ -440,7 +440,43 @@
       </div>
     </section>
   </main>
-  <footer></footer>
+  <footer class="footer grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center font-poppins p-5 md:p-12 lg:p-24 bg-[#111] text-[#CFCFCF] justify-evenly mt-28">
+    <nav class="space-y-4">
+      <div>
+        <img class="mb-4" src="./images/logo.png" alt="">
+      </div>
+      <div>
+        <p class="font-poppins font-normal text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      </div>
+    </nav> 
+    <nav class="space-y-4 ">
+      <header class=" mb-4 font-eb font-extrabold text-xl text-white">Usefull Link</header> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav class="space-y-4">
+      <header class="mb-4 font-eb font-extrabold text-xl text-white">Contact Now</header> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav> 
+    <form>
+      <header class="mb-4 font-eb font-extrabold text-xl text-white">Subscribe</header> 
+      <fieldset class="form-control w-80">
+        <label class="label">
+          <span class="label-text text-[#CFCFCF]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+        </label> 
+        <div class="join">
+          <input type="text" placeholder="Email Address" class="input input-bordered join-item" /> 
+          <button class="btn bg-[#B68C5A] border-none rounded-lg join-item"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+  <path d="M9.72795 12.2427L1.52197 7.89893C7.48464 4.6228 13.9629 2.38878 20.6775 1.29314C19.5826 8.00784 17.3492 14.4863 14.0738 20.4494L9.72795 12.2427ZM9.72795 12.2427L15.0312 6.93938" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></button>
+        </div>
+      </fieldset>
+    </form>
+  </footer>
 </body>
 
 </html>
